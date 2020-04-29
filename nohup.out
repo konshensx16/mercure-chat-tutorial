@@ -1,0 +1,107 @@
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+2020-04-29 18:13:02,576 [   1286]   WARN - llij.ide.plugins.PluginManager - EditorConfig not loaded: until build 181.SNAPSHOT < PS-192.7142.41 
+2020-04-29 18:13:03,045 [   1755]   WARN - llij.ide.plugins.PluginManager - EditorConfig not loaded: until build 181.SNAPSHOT < PS-192.7142.41 
+2020-04-29 18:13:03,109 [   1819]   WARN - llij.ide.plugins.PluginManager - XLIFF Support not loaded: until build 173.SNAPSHOT < PS-192.7142.41 
+2020-04-29 18:13:06,253 [   4963]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: VibrantInk from plugin: com.intellij.database 
+2020-04-29 18:13:06,253 [   4963]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: WarmNeon from plugin: com.intellij.database 
+2020-04-29 18:13:06,253 [   4963]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: High сontrast from plugin: com.intellij.database 
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+2020-04-29 18:48:38,550 [   1292]   WARN - llij.ide.plugins.PluginManager - EditorConfig not loaded: until build 181.SNAPSHOT < PS-192.7142.41 
+2020-04-29 18:48:39,014 [   1756]   WARN - llij.ide.plugins.PluginManager - EditorConfig not loaded: until build 181.SNAPSHOT < PS-192.7142.41 
+2020-04-29 18:48:39,085 [   1827]   WARN - llij.ide.plugins.PluginManager - XLIFF Support not loaded: until build 173.SNAPSHOT < PS-192.7142.41 
+2020-04-29 18:48:42,306 [   5048]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: VibrantInk from plugin: com.intellij.database 
+2020-04-29 18:48:42,306 [   5048]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: WarmNeon from plugin: com.intellij.database 
+2020-04-29 18:48:42,306 [   5048]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: High сontrast from plugin: com.intellij.database 
+2020-04-29 19:06:23,775 [1066517]  ERROR - openapi.wm.impl.WindowInfoImpl - Frame bounds are invalid: java.awt.Rectangle[x=0,y=-1054,width=1680,height=1054] 
+java.lang.Throwable: Frame bounds are invalid: java.awt.Rectangle[x=0,y=-1054,width=1680,height=1054]
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:145)
+	at com.intellij.openapi.wm.impl.ProjectFrameBoundsKt.getFrameInfoInDeviceSpace(ProjectFrameBounds.kt:75)
+	at com.intellij.openapi.wm.impl.ProjectFrameBounds.getModificationCount(ProjectFrameBounds.kt:42)
+	at com.intellij.configurationStore.ComponentWithModificationTrackerInfo.getCurrentModificationCount(ComponentInfo.kt:80)
+	at com.intellij.configurationStore.ComponentStoreImpl.commitComponents$intellij_platform_configurationStore_impl(ComponentStoreImpl.kt:184)
+	at com.intellij.configurationStore.ComponentStoreWithExtraComponents.commitComponents$intellij_platform_configurationStore_impl(ComponentStoreWithExtraComponents.kt:88)
+	at com.intellij.configurationStore.ComponentStoreImpl.doCreateSaveSessionManagerAndCommitComponents$intellij_platform_configurationStore_impl(ComponentStoreImpl.kt:158)
+	at com.intellij.configurationStore.ComponentStoreImpl$createSaveSessionManagerAndSaveComponents$$inlined$withEdtContext$intellij_platform_configurationStore_impl$1.invokeSuspend(ComponentStoreImpl.kt:646)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(Dispatched.kt:238)
+	at com.intellij.configurationStore.EdtPoolDispatcherManager.processQueue(EdtPoolDispatcher.kt:57)
+	at com.intellij.configurationStore.EdtPoolDispatcherManager.access$processQueue(EdtPoolDispatcher.kt:21)
+	at com.intellij.configurationStore.EdtPoolDispatcherManager$scheduleFlush$1.invoke(EdtPoolDispatcher.kt:35)
+	at com.intellij.configurationStore.EdtPoolDispatcherManager$scheduleFlush$1.invoke(EdtPoolDispatcher.kt:21)
+	at com.intellij.configurationStore.EdtPoolDispatcherKt$sam$java_lang_Runnable$0.run(EdtPoolDispatcher.kt)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:312)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.doRun(LaterInvocator.java:433)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.runNextEvent(LaterInvocator.java:416)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:399)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:878)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:827)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:466)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:704)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:465)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2020-04-29 19:06:23,777 [1066519]  ERROR - openapi.wm.impl.WindowInfoImpl - PhpStorm 2019.2.4  Build #PS-192.7142.41 
+2020-04-29 19:06:23,777 [1066519]  ERROR - openapi.wm.impl.WindowInfoImpl - JDK: 11.0.4; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o 
+2020-04-29 19:06:23,777 [1066519]  ERROR - openapi.wm.impl.WindowInfoImpl - OS: Linux 
+2020-04-29 19:06:23,790 [1066532]  ERROR - openapi.wm.impl.WindowInfoImpl - Last Action: EditorLineEnd 
+2020-04-29 19:08:51,444 [1214186]  ERROR - openapi.wm.impl.WindowInfoImpl - Frame bounds are invalid: java.awt.Rectangle[x=0,y=-1054,width=1680,height=1054] 
+java.lang.Throwable: Frame bounds are invalid: java.awt.Rectangle[x=0,y=-1054,width=1680,height=1054]
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:145)
+	at com.intellij.openapi.wm.impl.ProjectFrameBoundsKt.getFrameInfoInDeviceSpace(ProjectFrameBounds.kt:75)
+	at com.intellij.openapi.wm.impl.ProjectFrameBounds.getModificationCount(ProjectFrameBounds.kt:42)
+	at com.intellij.configurationStore.ComponentWithModificationTrackerInfo.getCurrentModificationCount(ComponentInfo.kt:80)
+	at com.intellij.configurationStore.ComponentStoreImpl.commitComponents$intellij_platform_configurationStore_impl(ComponentStoreImpl.kt:184)
+	at com.intellij.configurationStore.ComponentStoreWithExtraComponents.commitComponents$intellij_platform_configurationStore_impl(ComponentStoreWithExtraComponents.kt:88)
+	at com.intellij.configurationStore.ComponentStoreImpl.doCreateSaveSessionManagerAndCommitComponents$intellij_platform_configurationStore_impl(ComponentStoreImpl.kt:158)
+	at com.intellij.configurationStore.ComponentStoreImpl$createSaveSessionManagerAndSaveComponents$$inlined$withEdtContext$intellij_platform_configurationStore_impl$1.invokeSuspend(ComponentStoreImpl.kt:646)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(Dispatched.kt:238)
+	at com.intellij.configurationStore.EdtPoolDispatcherManager.processQueue(EdtPoolDispatcher.kt:57)
+	at com.intellij.configurationStore.EdtPoolDispatcherManager.access$processQueue(EdtPoolDispatcher.kt:21)
+	at com.intellij.configurationStore.EdtPoolDispatcherManager$scheduleFlush$1.invoke(EdtPoolDispatcher.kt:35)
+	at com.intellij.configurationStore.EdtPoolDispatcherManager$scheduleFlush$1.invoke(EdtPoolDispatcher.kt:21)
+	at com.intellij.configurationStore.EdtPoolDispatcherKt$sam$java_lang_Runnable$0.run(EdtPoolDispatcher.kt)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:312)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.doRun(LaterInvocator.java:433)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.runNextEvent(LaterInvocator.java:416)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:399)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:878)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:827)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:466)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:704)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:465)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2020-04-29 19:08:51,445 [1214187]  ERROR - openapi.wm.impl.WindowInfoImpl - PhpStorm 2019.2.4  Build #PS-192.7142.41 
+2020-04-29 19:08:51,445 [1214187]  ERROR - openapi.wm.impl.WindowInfoImpl - JDK: 11.0.4; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o 
+2020-04-29 19:08:51,445 [1214187]  ERROR - openapi.wm.impl.WindowInfoImpl - OS: Linux 
+2020-04-29 19:08:51,445 [1214187]  ERROR - openapi.wm.impl.WindowInfoImpl - Last Action: EditorLeft 
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+2020-04-29 19:27:31,088 [   1407]   WARN - llij.ide.plugins.PluginManager - EditorConfig not loaded: until build 181.SNAPSHOT < PS-192.7142.41 
+2020-04-29 19:27:31,624 [   1943]   WARN - llij.ide.plugins.PluginManager - EditorConfig not loaded: until build 181.SNAPSHOT < PS-192.7142.41 
+2020-04-29 19:27:31,712 [   2031]   WARN - llij.ide.plugins.PluginManager - XLIFF Support not loaded: until build 173.SNAPSHOT < PS-192.7142.41 
+2020-04-29 19:27:34,842 [   5161]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: VibrantInk from plugin: com.intellij.database 
+2020-04-29 19:27:34,842 [   5161]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: WarmNeon from plugin: com.intellij.database 
+2020-04-29 19:27:34,843 [   5162]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: High сontrast from plugin: com.intellij.database 
