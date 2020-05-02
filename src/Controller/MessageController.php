@@ -5,13 +5,17 @@ namespace App\Controller;
 use App\Entity\Conversation;
 use App\Entity\Message;
 use App\Repository\MessageRepository;
+use App\Repository\ParticipantRepository;
 use App\Repository\UserRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Mercure\PublisherInterface;
+use Symfony\Component\Mercure\Update;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\Serializer\SerializerInterface;
 
 /**
  * @Route("/messages", name="messages.")
@@ -33,14 +37,26 @@ class MessageController extends AbstractController
      * @var UserRepository
      */
     private $userRepository;
+    /**
+     * @var ParticipantRepository
+     */
+    private $participantRepository;
+    /**
+     * @var PublisherInterface
+     */
+    private $publisher;
 
     public function __construct(EntityManagerInterface $entityManager,
                                 MessageRepository $messageRepository,
-                                UserRepository $userRepository)
+                                UserRepository $userRepository,
+                                ParticipantRepository $participantRepository,
+                                PublisherInterface $publisher)
     {
         $this->entityManager = $entityManager;
         $this->messageRepository = $messageRepository;
         $this->userRepository = $userRepository;
+        $this->participantRepository = $participantRepository;
+        $this->publisher = $publisher;
     }
 
     /**
@@ -79,18 +95,23 @@ class MessageController extends AbstractController
      * @Route("/{id}", name="newMessage", methods={"POST"})
      * @param Request $request
      * @param Conversation $conversation
+     * @param SerializerInterface $serializer
      * @return JsonResponse
      * @throws \Exception
      */
-    public function newMessage(Request $request, Conversation $conversation)
+    public function newMessage(Request $request, Conversation $conversation, SerializerInterface $serializer)
     {
-        // TODO: put everything back
         $user = $this->getUser();
+
+        $recipient = $this->participantRepository->findParticipantByConverstionIdAndUserId(
+            $conversation->getId(),
+            $user->getId()
+        );
+
         $content = $request->get('content', null);
         $message = new Message();
         $message->setContent($content);
-        $message->setUser($this->userRepository->findOneBy(['id' => 2]));
-        $message->setMine(true);
+        $message->setUser($user);
 
         $conversation->addMessage($message);
         $conversation->setLastMessage($message);
@@ -105,7 +126,24 @@ class MessageController extends AbstractController
             $this->entityManager->rollback();
             throw $e;
         }
+        $message->setMine(false);
+        $messageSerialized = $serializer->serialize($message, 'json', [
+            'attributes' => ['id', 'content', 'createdAt', 'mine', 'conversation' => ['id']]
+        ]);
+        $update = new Update(
+            [
+                sprintf("/conversations/%s", $conversation->getId()),
+                sprintf("/conversations/%s", $recipient->getUser()->getUsername()),
+            ],
+            $messageSerialized,
+            [
+                sprintf("/%s", $recipient->getUser()->getUsername())
+            ]
+        );
 
+        $this->publisher->__invoke($update);
+
+        $message->setMine(true);
         return $this->json($message, Response::HTTP_CREATED, [], [
             'attributes' => self::ATTRIBUTES_TO_SERIALIZE
         ]);
