@@ -105,3 +105,452 @@ OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in ve
 2020-04-29 19:27:34,842 [   5161]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: VibrantInk from plugin: com.intellij.database 
 2020-04-29 19:27:34,842 [   5161]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: WarmNeon from plugin: com.intellij.database 
 2020-04-29 19:27:34,843 [   5162]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: High сontrast from plugin: com.intellij.database 
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+2020-05-03 17:49:13,032 [   1301]   WARN - llij.ide.plugins.PluginManager - EditorConfig not loaded: until build 181.SNAPSHOT < PS-192.7142.41 
+2020-05-03 17:49:13,450 [   1719]   WARN - llij.ide.plugins.PluginManager - EditorConfig not loaded: until build 181.SNAPSHOT < PS-192.7142.41 
+2020-05-03 17:49:13,539 [   1808]   WARN - llij.ide.plugins.PluginManager - XLIFF Support not loaded: until build 173.SNAPSHOT < PS-192.7142.41 
+2020-05-03 17:49:16,790 [   5059]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: VibrantInk from plugin: com.intellij.database 
+2020-05-03 17:49:16,791 [   5060]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: WarmNeon from plugin: com.intellij.database 
+2020-05-03 17:49:16,791 [   5060]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: High сontrast from plugin: com.intellij.database 
+2020-05-03 17:49:22,790 [  11059]   WARN - .library.PhpIncludePathManager - Frequent include path update. Delta 5719, old path: [/home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/event-dispatcher, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/doctrine-bridge, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/string, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/http-foundation, /home/konshensx/Desktop/tutorial/ChatApp/vendor/phpdocumentor/reflection-docblock, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/translation-contracts, /home/konshensx/Desktop/tutorial/ChatApp/vendor/psr/cache, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-intl-grapheme, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/debug-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/mime, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/dependency-injection, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/property-access, /home/konshensx/Desktop/tutorial/ChatApp/vendor/phpdocumentor/type-resolver, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/web-link, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/annotations, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/dotenv, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/lexer, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/notifier, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/serializer, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/service-contracts, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/translation, /home/konshensx/Desktop/tutorial/ChatApp/vendor/psr/container, /home/konshensx/Desktop/tutorial/ChatApp/vendor/twig/extra-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/webmozart/assert, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/expression-language, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/cache, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/security-core, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/migrations, /home/konshensx/Desktop/tutorial/ChatApp/vendor/nikic/php-parser, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/dom-crawler, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/debug-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/monolog/monolog, /home/konshensx/Desktop/tutorial/ChatApp/vendor/phpdocumentor/reflection-common, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/http-client, /home/konshensx/Desktop/tutorial/ChatApp/vendor/jdorn/sql-formatter, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/cache, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/intl, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/mercure-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/zendframework/zend-code, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/var-dumper, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/var-exporter, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/options-resolver, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/security-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/zendframework/zend-eventmanager, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/twig-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/error-handler, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/console, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/monolog-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/yaml, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/instantiator, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/validator, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/event-manager, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/common, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/asset, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/stopwatch, /home/konshensx/Desktop/tutorial/ChatApp/vendor/psr/event-dispatcher, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-php73, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/inflector, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/browser-kit, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/doctrine-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/psr/link, /home/konshensx/Desktop/tutorial/ChatApp/vendor/twig/twig, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/config, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/security-csrf, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/process, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/security-http, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/phpunit-bridge, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/doctrine-migrations-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/mailer, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/dbal, /home/konshensx/Desktop/tutorial/ChatApp/vendor/lcobucci/jwt, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/cache-contracts, /home/konshensx/Desktop/tutorial/ChatApp/vendor/psr/log, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/property-info, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-intl-icu, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/inflector, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/web-profiler-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/filesystem, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/test-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/egulias/email-validator, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/reflection, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/css-selector, /home/konshensx/Desktop/tutorial/ChatApp/vendor/composer, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/http-kernel, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/security-guard, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-intl-normalizer, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/form, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-mbstring, /home/konshensx/Desktop/tutorial/ChatApp/vendor/ocramius/proxy-manager, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/orm, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/persistence, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/maker-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/finder, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/collections, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/twig-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/orm-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/sensio/framework-extra-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/ocramius/package-versions, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-intl-idn, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/profiler-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/serializer-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/twig-bridge, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/mercure, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/event-dispatcher-contracts, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/routing, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/framework-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/monolog-bridge, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/flex, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/http-client-contracts]
+new path: [/home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/yaml, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-intl-icu, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/maker-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/debug-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/event-dispatcher, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/options-resolver, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/security-guard, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/test-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/expression-language, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/notifier, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/var-exporter, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/cache-contracts, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/security-core, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/dependency-injection, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/string, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/http-foundation, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/mailer, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/http-client, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/process, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/serializer-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/routing, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/browser-kit, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/service-contracts, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/http-kernel, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/security-csrf, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/validator, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/mime, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/inflector, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/dotenv, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/form, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/web-link, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/framework-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/asset, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-intl-normalizer, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/filesystem, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/property-access, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/orm-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/http-client-contracts, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/css-selector, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/phpunit-bridge, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/monolog-bridge, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/twig-bridge, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/debug-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/event-dispatcher-contracts, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/security-http, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-intl-idn, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/twig-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/flex, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-php73, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/doctrine-bridge, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/translation-contracts, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/config, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/monolog-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-intl-grapheme, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/serializer, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/error-handler, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/console, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/web-profiler-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/finder, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/cache, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/translation, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/twig-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/stopwatch, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/orm, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/inflector, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/common, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/persistence, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/dbal, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/instantiator, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/reflection, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/event-manager, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/lexer, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/cache, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/doctrine-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/ocramius/package-versions, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/collections, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/migrations, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/annotations, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/doctrine-migrations-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/phpdocumentor/type-resolver, /home/konshensx/Desktop/tutorial/ChatApp/vendor/zendframework/zend-eventmanager, /home/konshensx/Desktop/tutorial/ChatApp/vendor/zendframework/zend-code, /home/konshensx/Desktop/tutorial/ChatApp/vendor/ocramius/proxy-manager, /home/konshensx/Desktop/tutorial/ChatApp/vendor/webmozart/assert, /home/konshensx/Desktop/tutorial/ChatApp/vendor/phpdocumentor/reflection-docblock, /home/konshensx/Desktop/tutorial/ChatApp/vendor/phpdocumentor/reflection-common, /home/konshensx/Desktop/tutorial/ChatApp/vendor/composer, /home/konshensx/Desktop/tutorial/ChatApp/vendor/psr/event-dispatcher, /home/konshensx/Desktop/tutorial/ChatApp/vendor/psr/link, /home/konshensx/Desktop/tutorial/ChatApp/vendor/psr/container, /home/konshensx/Desktop/tutorial/ChatApp/vendor/jdorn/sql-formatter, /home/konshensx/Desktop/tutorial/ChatApp/vendor/nikic/php-parser, /home/konshensx/Desktop/tutorial/ChatApp/vendor/sensio/framework-extra-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/egulias/email-validator, /home/konshensx/Desktop/tutorial/ChatApp/vendor/psr/cache, /home/konshensx/Desktop/tutorial/ChatApp/vendor/psr/log, /home/konshensx/Desktop/tutorial/ChatApp/vendor/twig/twig, /home/konshensx/Desktop/tutorial/ChatApp/vendor/twig/extra-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/intl, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/dom-crawler, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/security-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/profiler-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/monolog/monolog, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/property-info, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/var-dumper, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-mbstring, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/mercure-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/mercure, /home/konshensx/Desktop/tutorial/ChatApp/vendor/lcobucci/jwt, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/webpack-encore-bundle] 
+2020-05-03 17:49:23,198 [  11467]   WARN - .library.PhpIncludePathManager - Frequent include path update. Delta 408, old path: [/home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/event-dispatcher, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/doctrine-bridge, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/string, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/http-foundation, /home/konshensx/Desktop/tutorial/ChatApp/vendor/phpdocumentor/reflection-docblock, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/translation-contracts, /home/konshensx/Desktop/tutorial/ChatApp/vendor/psr/cache, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/webpack-encore-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-intl-grapheme, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/debug-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/mime, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/dependency-injection, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/property-access, /home/konshensx/Desktop/tutorial/ChatApp/vendor/phpdocumentor/type-resolver, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/web-link, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/annotations, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/dotenv, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/lexer, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/notifier, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/serializer, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/service-contracts, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/translation, /home/konshensx/Desktop/tutorial/ChatApp/vendor/psr/container, /home/konshensx/Desktop/tutorial/ChatApp/vendor/twig/extra-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/webmozart/assert, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/expression-language, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/cache, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/security-core, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/migrations, /home/konshensx/Desktop/tutorial/ChatApp/vendor/nikic/php-parser, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/dom-crawler, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/debug-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/monolog/monolog, /home/konshensx/Desktop/tutorial/ChatApp/vendor/phpdocumentor/reflection-common, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/http-client, /home/konshensx/Desktop/tutorial/ChatApp/vendor/jdorn/sql-formatter, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/cache, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/intl, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/mercure-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/zendframework/zend-code, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/var-dumper, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/var-exporter, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/options-resolver, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/security-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/zendframework/zend-eventmanager, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/twig-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/error-handler, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/console, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/monolog-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/yaml, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/instantiator, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/validator, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/event-manager, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/common, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/asset, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/stopwatch, /home/konshensx/Desktop/tutorial/ChatApp/vendor/psr/event-dispatcher, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-php73, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/inflector, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/browser-kit, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/doctrine-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/psr/link, /home/konshensx/Desktop/tutorial/ChatApp/vendor/twig/twig, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/config, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/security-csrf, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/process, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/security-http, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/phpunit-bridge, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/doctrine-migrations-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/mailer, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/dbal, /home/konshensx/Desktop/tutorial/ChatApp/vendor/lcobucci/jwt, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/cache-contracts, /home/konshensx/Desktop/tutorial/ChatApp/vendor/psr/log, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/property-info, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-intl-icu, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/inflector, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/web-profiler-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/filesystem, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/test-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/egulias/email-validator, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/reflection, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/css-selector, /home/konshensx/Desktop/tutorial/ChatApp/vendor/composer, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/http-kernel, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/security-guard, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-intl-normalizer, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/form, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-mbstring, /home/konshensx/Desktop/tutorial/ChatApp/vendor/ocramius/proxy-manager, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/orm, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/persistence, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/maker-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/finder, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/collections, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/twig-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/orm-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/sensio/framework-extra-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/ocramius/package-versions, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-intl-idn, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/profiler-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/serializer-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/twig-bridge, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/mercure, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/event-dispatcher-contracts, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/routing, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/framework-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/monolog-bridge, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/flex, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/http-client-contracts]
+new path: [/home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/yaml, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-intl-icu, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/maker-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/debug-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/event-dispatcher, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/options-resolver, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/security-guard, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/test-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/expression-language, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/notifier, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/var-exporter, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/cache-contracts, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/security-core, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/dependency-injection, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/string, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/http-foundation, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/mailer, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/http-client, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/process, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/serializer-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/routing, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/browser-kit, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/service-contracts, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/http-kernel, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/security-csrf, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/validator, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/mime, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/inflector, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/dotenv, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/form, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/web-link, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/framework-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/asset, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-intl-normalizer, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/filesystem, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/property-access, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/orm-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/http-client-contracts, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/css-selector, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/phpunit-bridge, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/monolog-bridge, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/twig-bridge, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/debug-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/event-dispatcher-contracts, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/security-http, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-intl-idn, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/twig-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/flex, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-php73, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/doctrine-bridge, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/translation-contracts, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/config, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/monolog-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-intl-grapheme, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/serializer, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/error-handler, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/console, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/web-profiler-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/finder, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/cache, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/translation, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/twig-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/stopwatch, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/orm, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/inflector, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/common, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/persistence, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/dbal, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/instantiator, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/reflection, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/event-manager, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/lexer, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/cache, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/doctrine-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/ocramius/package-versions, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/collections, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/migrations, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/annotations, /home/konshensx/Desktop/tutorial/ChatApp/vendor/doctrine/doctrine-migrations-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/phpdocumentor/type-resolver, /home/konshensx/Desktop/tutorial/ChatApp/vendor/zendframework/zend-eventmanager, /home/konshensx/Desktop/tutorial/ChatApp/vendor/zendframework/zend-code, /home/konshensx/Desktop/tutorial/ChatApp/vendor/ocramius/proxy-manager, /home/konshensx/Desktop/tutorial/ChatApp/vendor/webmozart/assert, /home/konshensx/Desktop/tutorial/ChatApp/vendor/phpdocumentor/reflection-docblock, /home/konshensx/Desktop/tutorial/ChatApp/vendor/phpdocumentor/reflection-common, /home/konshensx/Desktop/tutorial/ChatApp/vendor/composer, /home/konshensx/Desktop/tutorial/ChatApp/vendor/psr/event-dispatcher, /home/konshensx/Desktop/tutorial/ChatApp/vendor/psr/link, /home/konshensx/Desktop/tutorial/ChatApp/vendor/psr/container, /home/konshensx/Desktop/tutorial/ChatApp/vendor/jdorn/sql-formatter, /home/konshensx/Desktop/tutorial/ChatApp/vendor/nikic/php-parser, /home/konshensx/Desktop/tutorial/ChatApp/vendor/sensio/framework-extra-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/egulias/email-validator, /home/konshensx/Desktop/tutorial/ChatApp/vendor/psr/cache, /home/konshensx/Desktop/tutorial/ChatApp/vendor/psr/log, /home/konshensx/Desktop/tutorial/ChatApp/vendor/twig/twig, /home/konshensx/Desktop/tutorial/ChatApp/vendor/twig/extra-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/intl, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/dom-crawler, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/security-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/profiler-pack, /home/konshensx/Desktop/tutorial/ChatApp/vendor/monolog/monolog, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/property-info, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/var-dumper, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/polyfill-mbstring, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/mercure-bundle, /home/konshensx/Desktop/tutorial/ChatApp/vendor/symfony/mercure, /home/konshensx/Desktop/tutorial/ChatApp/vendor/lcobucci/jwt] 
+2020-05-03 17:49:32,047 [  20316]   WARN - dTools.webpack.WebPackExecutor - failed to evaluate webpack config. exit code: 1
+stdout: 
+stderr: module.js:549
+    throw err;
+    ^
+
+Error: Cannot find module '/home/konshensx/Desktop/tutorial/ChatApp/webpack.config.js'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at [eval]:35:14
+    at ContextifyScript.Script.runInThisContext (vm.js:50:33)
+    at Object.runInThisContext (vm.js:139:38)
+    at Object.<anonymous> ([eval]-wrapper:6:22)
+    at Module._compile (module.js:652:30)
+    at evalScript (bootstrap_node.js:466:27)
+ 
+2020-05-03 17:50:33,193 [  81462]   WARN - dTools.webpack.WebPackExecutor - failed to evaluate webpack config. exit code: 1
+stdout: 
+stderr: module.js:549
+    throw err;
+    ^
+
+Error: Cannot find module '@symfony/webpack-encore'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/konshensx/Desktop/tutorial/ChatApp/webpack.config.js:1:76)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+ 
+2020-05-03 17:50:37,842 [  86111]   WARN - dTools.webpack.WebPackExecutor - failed to evaluate webpack config. exit code: 1
+stdout: 
+stderr: module.js:549
+    throw err;
+    ^
+
+Error: Cannot find module '@symfony/webpack-encore'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/konshensx/Desktop/tutorial/ChatApp/webpack.config.js:1:76)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+ 
+2020-05-03 17:50:44,845 [  93114]   WARN - dTools.webpack.WebPackExecutor - failed to evaluate webpack config. exit code: 1
+stdout: 
+stderr: module.js:549
+    throw err;
+    ^
+
+Error: Cannot find module '@symfony/webpack-encore'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/konshensx/Desktop/tutorial/ChatApp/webpack.config.js:1:76)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+ 
+2020-05-03 17:50:52,951 [ 101220]   WARN - dTools.webpack.WebPackExecutor - failed to evaluate webpack config. exit code: 1
+stdout: 
+stderr: module.js:549
+    throw err;
+    ^
+
+Error: Cannot find module '@symfony/webpack-encore'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/konshensx/Desktop/tutorial/ChatApp/webpack.config.js:1:76)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+ 
+2020-05-03 17:51:09,955 [ 118224]   WARN - dTools.webpack.WebPackExecutor - failed to evaluate webpack config. exit code: 1
+stdout: 
+stderr: module.js:549
+    throw err;
+    ^
+
+Error: Cannot find module '@symfony/webpack-encore'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/konshensx/Desktop/tutorial/ChatApp/webpack.config.js:1:76)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+ 
+2020-05-03 17:51:16,907 [ 125176]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2020-05-03 17:51:17,075 [ 125344]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2020-05-03 17:51:17,251 [ 125520]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2020-05-03 17:51:17,346 [ 125615]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2020-05-03 17:51:17,447 [ 125716]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2020-05-03 17:51:27,395 [ 135664]   WARN - dTools.webpack.WebPackExecutor - failed to evaluate webpack config. exit code: 1
+stdout:   Error: Install vue & vue-loader & vue-template-compiler to use enableVueLoader  ()
+    npm install vue vue-loader@^15.0.11 vue-template-compiler --save-dev
+
+
+stderr:  
+2020-05-03 17:51:33,791 [ 142060]   WARN - dTools.webpack.WebPackExecutor - failed to evaluate webpack config. exit code: 1
+stdout:   Error: Install vue & vue-loader & vue-template-compiler to use enableVueLoader  ()
+    npm install vue vue-loader@^15.0.11 vue-template-compiler --save-dev
+
+
+stderr:  
+2020-05-03 17:51:50,153 [ 158422]   WARN - dTools.webpack.WebPackExecutor - failed to evaluate webpack config. exit code: 1
+stdout:   Error: Install vue & vue-loader & vue-template-compiler to use enableVueLoader  ()
+    npm install vue vue-loader@^15.0.11 vue-template-compiler --save-dev
+
+
+stderr:  
+2020-05-03 17:52:05,417 [ 173686]   WARN - dTools.webpack.WebPackExecutor - failed to evaluate webpack config. exit code: 1
+stdout:   Error: Install vue & vue-loader & vue-template-compiler to use enableVueLoader  ()
+    npm install vue vue-loader@^15.0.11 vue-template-compiler --save-dev
+
+
+stderr:  
+2020-05-03 17:52:14,009 [ 182278]   WARN - dTools.webpack.WebPackExecutor - failed to evaluate webpack config. exit code: 1
+stdout:   Error: Install vue & vue-loader & vue-template-compiler to use enableVueLoader  ()
+    npm install vue vue-loader@^15.0.11 vue-template-compiler --save-dev
+
+
+stderr:  
+2020-05-03 17:54:00,410 [ 288679]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2020-05-03 17:55:04,223 [ 352492]  ERROR - j.psi.stubs.StubTreeLoaderImpl - Outdated stub in index: file:///home/konshensx/Desktop/tutorial/ChatApp/public/build/app.js indexed at 1588524848768 with document  byte size = 702, char size = 702, doc=null, docSaved=true, wasIndexedAlready=true, queried at 1588524883533
+doc length=-1
+file length=1257
+cached PSI class com.intellij.lang.javascript.psi.impl.JSFileImpl
+projects with file: 1 
+java.lang.Exception
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.diagnoseLengthMismatch(StubTreeLoaderImpl.java:178)
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.checkLengthMatch(StubTreeLoaderImpl.java:150)
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.readFromVFile(StubTreeLoaderImpl.java:118)
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.readOrBuild(StubTreeLoaderImpl.java:53)
+	at com.intellij.psi.impl.source.PsiFileImpl.getStubTree(PsiFileImpl.java:608)
+	at com.intellij.psi.impl.source.PsiFileImpl.getGreenStubTree(PsiFileImpl.java:931)
+	at com.intellij.psi.impl.source.PsiFileImpl.getGreenStub(PsiFileImpl.java:584)
+	at com.intellij.lang.javascript.psi.impl.JSFileBaseImpl.getCachedData(JSFileBaseImpl.java:39)
+	at com.intellij.lang.javascript.psi.impl.JSFileBaseImpl.getTestFileType(JSFileBaseImpl.java:116)
+	at com.intellij.lang.javascript.psi.impl.JSFileBaseImpl.isTestFile(JSFileBaseImpl.java:110)
+	at com.intellij.lang.javascript.ui.JSFileIconProvider.getIcon(JSFileIconProvider.java:50)
+	at com.intellij.util.PsiIconUtil.getProvidersIcon(PsiIconUtil.java:17)
+	at com.intellij.ide.FileIconPatcherImpl.getIcon(FileIconPatcherImpl.java:37)
+	at com.intellij.util.IconUtil.getProvidersIcon(IconUtil.java:200)
+	at com.intellij.util.IconUtil.lambda$static$0(IconUtil.java:144)
+	at com.intellij.ui.DeferredIconImpl.evaluate(DeferredIconImpl.java:263)
+	at com.intellij.ui.DeferredIconImpl.lambda$null$0(DeferredIconImpl.java:151)
+	at com.intellij.ui.IconDeferrerImpl.evaluateDeferred(IconDeferrerImpl.java:111)
+	at com.intellij.ui.DeferredIconImpl.lambda$null$1(DeferredIconImpl.java:151)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1106)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:72)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$1(ProgressIndicatorUtils.java:126)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:169)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:591)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:537)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:59)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:156)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:115)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:72)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:93)
+	at com.intellij.ui.DeferredIconImpl.lambda$paintIcon$4(DeferredIconImpl.java:150)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:207)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$100(BoundedTaskExecutor.java:29)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.lambda$run$0(BoundedTaskExecutor.java:185)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:208)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:181)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-05-03 17:55:04,225 [ 352494]  ERROR - j.psi.stubs.StubTreeLoaderImpl - PhpStorm 2019.2.4  Build #PS-192.7142.41 
+2020-05-03 17:55:04,225 [ 352494]  ERROR - j.psi.stubs.StubTreeLoaderImpl - JDK: 11.0.4; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o 
+2020-05-03 17:55:04,225 [ 352494]  ERROR - j.psi.stubs.StubTreeLoaderImpl - OS: Linux 
+2020-05-03 17:55:04,231 [ 352500]  ERROR - j.psi.stubs.StubTreeLoaderImpl - Last Action: Switcher 
+2020-05-03 17:55:30,800 [ 379069]  ERROR - j.psi.stubs.StubTreeLoaderImpl - Outdated stub in index: file:///home/konshensx/Desktop/tutorial/ChatApp/public/build/app.js indexed at 1588524848768 with document  byte size = 702, char size = 702, doc=null, docSaved=true, wasIndexedAlready=true, queried at 1588524922863
+doc length=-1
+file length=11739
+cached PSI class com.intellij.lang.javascript.psi.impl.JSFileImpl
+projects with file: 1 
+java.lang.Exception
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.diagnoseLengthMismatch(StubTreeLoaderImpl.java:178)
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.checkLengthMatch(StubTreeLoaderImpl.java:150)
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.readFromVFile(StubTreeLoaderImpl.java:118)
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.readOrBuild(StubTreeLoaderImpl.java:53)
+	at com.intellij.psi.impl.source.PsiFileImpl.getStubTree(PsiFileImpl.java:608)
+	at com.intellij.psi.impl.source.PsiFileImpl.getGreenStubTree(PsiFileImpl.java:931)
+	at com.intellij.psi.impl.source.PsiFileImpl.getGreenStub(PsiFileImpl.java:584)
+	at com.intellij.lang.javascript.psi.impl.JSFileBaseImpl.getCachedData(JSFileBaseImpl.java:39)
+	at com.intellij.lang.javascript.psi.impl.JSFileBaseImpl.getTestFileType(JSFileBaseImpl.java:116)
+	at com.intellij.lang.javascript.psi.impl.JSFileBaseImpl.isTestFile(JSFileBaseImpl.java:110)
+	at com.intellij.lang.javascript.ui.JSFileIconProvider.getIcon(JSFileIconProvider.java:50)
+	at com.intellij.util.PsiIconUtil.getProvidersIcon(PsiIconUtil.java:17)
+	at com.intellij.ide.FileIconPatcherImpl.getIcon(FileIconPatcherImpl.java:37)
+	at com.intellij.util.IconUtil.getProvidersIcon(IconUtil.java:200)
+	at com.intellij.util.IconUtil.lambda$static$0(IconUtil.java:144)
+	at com.intellij.ui.DeferredIconImpl.evaluate(DeferredIconImpl.java:263)
+	at com.intellij.ui.DeferredIconImpl.lambda$null$0(DeferredIconImpl.java:151)
+	at com.intellij.ui.IconDeferrerImpl.evaluateDeferred(IconDeferrerImpl.java:111)
+	at com.intellij.ui.DeferredIconImpl.lambda$null$1(DeferredIconImpl.java:151)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1106)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:72)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$1(ProgressIndicatorUtils.java:126)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:169)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:591)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:537)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:59)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:156)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:115)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:72)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:93)
+	at com.intellij.ui.DeferredIconImpl.lambda$paintIcon$4(DeferredIconImpl.java:150)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:207)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$100(BoundedTaskExecutor.java:29)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.lambda$run$0(BoundedTaskExecutor.java:185)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:208)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:181)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-05-03 17:55:30,801 [ 379070]  ERROR - j.psi.stubs.StubTreeLoaderImpl - PhpStorm 2019.2.4  Build #PS-192.7142.41 
+2020-05-03 17:55:30,801 [ 379070]  ERROR - j.psi.stubs.StubTreeLoaderImpl - JDK: 11.0.4; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o 
+2020-05-03 17:55:30,801 [ 379070]  ERROR - j.psi.stubs.StubTreeLoaderImpl - OS: Linux 
+2020-05-03 17:55:30,801 [ 379070]  ERROR - j.psi.stubs.StubTreeLoaderImpl - Last Action: Switcher 
+2020-05-03 17:55:30,857 [ 379126]  ERROR - j.psi.stubs.StubTreeLoaderImpl - Outdated stub in index: file:///home/konshensx/Desktop/tutorial/ChatApp/public/build/app.js indexed at 1588524848768 with document  byte size = 702, char size = 702, doc=DocumentImpl[file:///home/konshensx/Desktop/tutorial/ChatApp/public/build/app.js], docSaved=true, wasIndexedAlready=true, queried at 1588524922863
+doc length=11739
+file length=11739
+cached PSI class com.intellij.lang.javascript.psi.impl.JSFileImpl
+projects with file: 1 
+java.lang.Exception
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.diagnoseLengthMismatch(StubTreeLoaderImpl.java:178)
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.checkLengthMatch(StubTreeLoaderImpl.java:150)
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.readFromVFile(StubTreeLoaderImpl.java:118)
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.readOrBuild(StubTreeLoaderImpl.java:53)
+	at com.intellij.psi.impl.source.PsiFileImpl.getStubTree(PsiFileImpl.java:608)
+	at com.intellij.psi.impl.source.PsiFileImpl.getGreenStubTree(PsiFileImpl.java:931)
+	at com.intellij.psi.impl.source.PsiFileImpl.getGreenStub(PsiFileImpl.java:584)
+	at com.intellij.lang.javascript.psi.impl.JSFileBaseImpl.getCachedData(JSFileBaseImpl.java:39)
+	at com.intellij.lang.javascript.psi.impl.JSFileBaseImpl.getTestFileType(JSFileBaseImpl.java:116)
+	at com.intellij.lang.javascript.psi.impl.JSFileBaseImpl.isTestFile(JSFileBaseImpl.java:110)
+	at com.intellij.lang.javascript.ui.JSFileIconProvider.getIcon(JSFileIconProvider.java:50)
+	at com.intellij.util.PsiIconUtil.getProvidersIcon(PsiIconUtil.java:17)
+	at com.intellij.ide.FileIconPatcherImpl.getIcon(FileIconPatcherImpl.java:37)
+	at com.intellij.util.IconUtil.getProvidersIcon(IconUtil.java:200)
+	at com.intellij.util.IconUtil.lambda$static$0(IconUtil.java:144)
+	at com.intellij.ui.DeferredIconImpl.evaluate(DeferredIconImpl.java:263)
+	at com.intellij.ui.DeferredIconImpl.lambda$null$0(DeferredIconImpl.java:151)
+	at com.intellij.ui.IconDeferrerImpl.evaluateDeferred(IconDeferrerImpl.java:111)
+	at com.intellij.ui.DeferredIconImpl.lambda$null$1(DeferredIconImpl.java:151)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1106)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:72)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$1(ProgressIndicatorUtils.java:126)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:169)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:591)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:537)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:59)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:156)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:115)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:72)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:93)
+	at com.intellij.ui.DeferredIconImpl.lambda$paintIcon$4(DeferredIconImpl.java:150)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:207)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$100(BoundedTaskExecutor.java:29)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.lambda$run$0(BoundedTaskExecutor.java:185)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:208)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:181)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-05-03 17:55:30,858 [ 379127]  ERROR - j.psi.stubs.StubTreeLoaderImpl - PhpStorm 2019.2.4  Build #PS-192.7142.41 
+2020-05-03 17:55:30,858 [ 379127]  ERROR - j.psi.stubs.StubTreeLoaderImpl - JDK: 11.0.4; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o 
+2020-05-03 17:55:30,858 [ 379127]  ERROR - j.psi.stubs.StubTreeLoaderImpl - OS: Linux 
+2020-05-03 17:55:30,858 [ 379127]  ERROR - j.psi.stubs.StubTreeLoaderImpl - Last Action: Switcher 
+2020-05-03 17:56:37,614 [ 445883]  ERROR - j.psi.stubs.StubTreeLoaderImpl - Outdated stub in index: file:///home/konshensx/Desktop/tutorial/ChatApp/public/build/app.js indexed at 1588524848768 with document  byte size = 702, char size = 702, doc=null, docSaved=true, wasIndexedAlready=true, queried at 1588524935035
+doc length=-1
+file length=12206
+cached PSI class com.intellij.lang.javascript.psi.impl.JSFileImpl
+projects with file: 1 
+java.lang.Exception
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.diagnoseLengthMismatch(StubTreeLoaderImpl.java:178)
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.checkLengthMatch(StubTreeLoaderImpl.java:150)
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.readFromVFile(StubTreeLoaderImpl.java:118)
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.readOrBuild(StubTreeLoaderImpl.java:53)
+	at com.intellij.psi.impl.source.PsiFileImpl.getStubTree(PsiFileImpl.java:608)
+	at com.intellij.psi.impl.source.PsiFileImpl.getGreenStubTree(PsiFileImpl.java:931)
+	at com.intellij.psi.impl.source.PsiFileImpl.getGreenStub(PsiFileImpl.java:584)
+	at com.intellij.lang.javascript.psi.impl.JSFileBaseImpl.getCachedData(JSFileBaseImpl.java:39)
+	at com.intellij.lang.javascript.psi.impl.JSFileBaseImpl.getTestFileType(JSFileBaseImpl.java:116)
+	at com.intellij.lang.javascript.psi.impl.JSFileBaseImpl.isTestFile(JSFileBaseImpl.java:110)
+	at com.intellij.lang.javascript.ui.JSFileIconProvider.getIcon(JSFileIconProvider.java:50)
+	at com.intellij.util.PsiIconUtil.getProvidersIcon(PsiIconUtil.java:17)
+	at com.intellij.ide.FileIconPatcherImpl.getIcon(FileIconPatcherImpl.java:37)
+	at com.intellij.util.IconUtil.getProvidersIcon(IconUtil.java:200)
+	at com.intellij.util.IconUtil.lambda$static$0(IconUtil.java:144)
+	at com.intellij.ui.DeferredIconImpl.evaluate(DeferredIconImpl.java:263)
+	at com.intellij.ui.DeferredIconImpl.lambda$null$0(DeferredIconImpl.java:151)
+	at com.intellij.ui.IconDeferrerImpl.evaluateDeferred(IconDeferrerImpl.java:111)
+	at com.intellij.ui.DeferredIconImpl.lambda$null$1(DeferredIconImpl.java:151)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1106)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:72)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$1(ProgressIndicatorUtils.java:126)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:169)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:591)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:537)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:59)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:156)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:115)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:72)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:93)
+	at com.intellij.ui.DeferredIconImpl.lambda$paintIcon$4(DeferredIconImpl.java:150)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:207)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$100(BoundedTaskExecutor.java:29)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.lambda$run$0(BoundedTaskExecutor.java:185)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:208)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:181)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-05-03 17:56:37,615 [ 445884]  ERROR - j.psi.stubs.StubTreeLoaderImpl - PhpStorm 2019.2.4  Build #PS-192.7142.41 
+2020-05-03 17:56:37,615 [ 445884]  ERROR - j.psi.stubs.StubTreeLoaderImpl - JDK: 11.0.4; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o 
+2020-05-03 17:56:37,615 [ 445884]  ERROR - j.psi.stubs.StubTreeLoaderImpl - OS: Linux 
+2020-05-03 17:56:37,615 [ 445884]  ERROR - j.psi.stubs.StubTreeLoaderImpl - Last Action: RecentFiles 
+2020-05-03 17:56:37,980 [ 446249]  ERROR - j.psi.stubs.StubTreeLoaderImpl - Outdated stub in index: file:///home/konshensx/Desktop/tutorial/ChatApp/public/build/app.js indexed at 1588524848768 with document  byte size = 702, char size = 702, doc=DocumentImpl[file:///home/konshensx/Desktop/tutorial/ChatApp/public/build/app.js], docSaved=true, wasIndexedAlready=true, queried at 1588524935035
+doc length=12206
+file length=12206
+cached PSI class com.intellij.lang.javascript.psi.impl.JSFileImpl
+projects with file: 1 
+java.lang.Exception
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.diagnoseLengthMismatch(StubTreeLoaderImpl.java:178)
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.checkLengthMatch(StubTreeLoaderImpl.java:150)
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.readFromVFile(StubTreeLoaderImpl.java:118)
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.readOrBuild(StubTreeLoaderImpl.java:53)
+	at com.intellij.psi.impl.source.PsiFileImpl.getStubTree(PsiFileImpl.java:608)
+	at com.intellij.psi.impl.source.PsiFileImpl.getGreenStubTree(PsiFileImpl.java:931)
+	at com.intellij.psi.impl.source.PsiFileImpl.getGreenStub(PsiFileImpl.java:584)
+	at com.intellij.lang.javascript.psi.impl.JSFileBaseImpl.getCachedData(JSFileBaseImpl.java:39)
+	at com.intellij.lang.javascript.psi.impl.JSFileBaseImpl.getTestFileType(JSFileBaseImpl.java:116)
+	at com.intellij.lang.javascript.psi.impl.JSFileBaseImpl.isTestFile(JSFileBaseImpl.java:110)
+	at com.intellij.lang.javascript.ui.JSFileIconProvider.getIcon(JSFileIconProvider.java:50)
+	at com.intellij.util.PsiIconUtil.getProvidersIcon(PsiIconUtil.java:17)
+	at com.intellij.ide.FileIconPatcherImpl.getIcon(FileIconPatcherImpl.java:37)
+	at com.intellij.util.IconUtil.getProvidersIcon(IconUtil.java:200)
+	at com.intellij.util.IconUtil.lambda$static$0(IconUtil.java:144)
+	at com.intellij.ui.DeferredIconImpl.evaluate(DeferredIconImpl.java:263)
+	at com.intellij.ui.DeferredIconImpl.lambda$null$0(DeferredIconImpl.java:151)
+	at com.intellij.ui.IconDeferrerImpl.evaluateDeferred(IconDeferrerImpl.java:111)
+	at com.intellij.ui.DeferredIconImpl.lambda$null$1(DeferredIconImpl.java:151)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1106)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:72)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$1(ProgressIndicatorUtils.java:126)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:169)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:591)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:537)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:59)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:156)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:115)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:72)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:93)
+	at com.intellij.ui.DeferredIconImpl.lambda$paintIcon$4(DeferredIconImpl.java:150)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:207)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$100(BoundedTaskExecutor.java:29)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.lambda$run$0(BoundedTaskExecutor.java:185)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:208)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:181)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-05-03 17:56:37,981 [ 446250]  ERROR - j.psi.stubs.StubTreeLoaderImpl - PhpStorm 2019.2.4  Build #PS-192.7142.41 
+2020-05-03 17:56:37,981 [ 446250]  ERROR - j.psi.stubs.StubTreeLoaderImpl - JDK: 11.0.4; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o 
+2020-05-03 17:56:37,981 [ 446250]  ERROR - j.psi.stubs.StubTreeLoaderImpl - OS: Linux 
+2020-05-03 17:56:37,981 [ 446250]  ERROR - j.psi.stubs.StubTreeLoaderImpl - Last Action: RecentFiles 
+2020-05-03 17:56:38,018 [ 446287]  ERROR - j.psi.stubs.StubTreeLoaderImpl - Outdated stub in index: file:///home/konshensx/Desktop/tutorial/ChatApp/public/build/app.js indexed at 1588524848768 with document  byte size = 702, char size = 702, doc=DocumentImpl[file:///home/konshensx/Desktop/tutorial/ChatApp/public/build/app.js], docSaved=true, wasIndexedAlready=true, queried at 1588524935035
+doc length=12206
+file length=12206
+cached PSI class com.intellij.lang.javascript.psi.impl.JSFileImpl
+projects with file: 1 
+java.lang.Exception
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.diagnoseLengthMismatch(StubTreeLoaderImpl.java:178)
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.checkLengthMatch(StubTreeLoaderImpl.java:150)
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.readFromVFile(StubTreeLoaderImpl.java:118)
+	at com.intellij.psi.stubs.StubTreeLoaderImpl.readOrBuild(StubTreeLoaderImpl.java:53)
+	at com.intellij.psi.impl.source.PsiFileImpl.getStubTree(PsiFileImpl.java:608)
+	at com.intellij.psi.impl.source.PsiFileImpl.getGreenStubTree(PsiFileImpl.java:931)
+	at com.intellij.psi.impl.source.PsiFileImpl.getGreenStub(PsiFileImpl.java:584)
+	at com.intellij.lang.javascript.psi.impl.JSFileBaseImpl.getCachedData(JSFileBaseImpl.java:39)
+	at com.intellij.lang.javascript.psi.impl.JSFileBaseImpl.getTestFileType(JSFileBaseImpl.java:116)
+	at com.intellij.lang.javascript.psi.impl.JSFileBaseImpl.isTestFile(JSFileBaseImpl.java:110)
+	at com.intellij.lang.javascript.ui.JSFileIconProvider.getIcon(JSFileIconProvider.java:50)
+	at com.intellij.util.PsiIconUtil.getProvidersIcon(PsiIconUtil.java:17)
+	at com.intellij.ide.FileIconPatcherImpl.getIcon(FileIconPatcherImpl.java:37)
+	at com.intellij.util.IconUtil.getProvidersIcon(IconUtil.java:200)
+	at com.intellij.util.IconUtil.lambda$static$0(IconUtil.java:144)
+	at com.intellij.ui.DeferredIconImpl.evaluate(DeferredIconImpl.java:263)
+	at com.intellij.ui.DeferredIconImpl.lambda$null$0(DeferredIconImpl.java:151)
+	at com.intellij.ui.IconDeferrerImpl.evaluateDeferred(IconDeferrerImpl.java:111)
+	at com.intellij.ui.DeferredIconImpl.lambda$null$1(DeferredIconImpl.java:151)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1106)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runInReadActionWithWriteActionPriority$0(ProgressIndicatorUtils.java:72)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.lambda$runWithWriteActionPriority$1(ProgressIndicatorUtils.java:126)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:169)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:591)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:537)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:59)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:156)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runWithWriteActionPriority(ProgressIndicatorUtils.java:115)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:72)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runInReadActionWithWriteActionPriority(ProgressIndicatorUtils.java:93)
+	at com.intellij.ui.DeferredIconImpl.lambda$paintIcon$4(DeferredIconImpl.java:150)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:207)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$100(BoundedTaskExecutor.java:29)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.lambda$run$0(BoundedTaskExecutor.java:185)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:208)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:181)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-05-03 17:56:38,019 [ 446288]  ERROR - j.psi.stubs.StubTreeLoaderImpl - PhpStorm 2019.2.4  Build #PS-192.7142.41 
+2020-05-03 17:56:38,019 [ 446288]  ERROR - j.psi.stubs.StubTreeLoaderImpl - JDK: 11.0.4; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o 
+2020-05-03 17:56:38,019 [ 446288]  ERROR - j.psi.stubs.StubTreeLoaderImpl - OS: Linux 
+2020-05-03 17:56:38,019 [ 446288]  ERROR - j.psi.stubs.StubTreeLoaderImpl - Last Action: RecentFiles 

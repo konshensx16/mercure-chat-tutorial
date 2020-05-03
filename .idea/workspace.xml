@@ -2,20 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17d7366a-e4b3-4c66-b55e-d169fa43acf5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/Left/Conversation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/Left/Left.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/Right/Blank.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/Right/Input.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/Right/Message.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/Right/Right.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/store/modules/conversation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/store/modules/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ChatApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ChatApp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ConversationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ConversationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MessageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MessageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/ParticipantRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ParticipantRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nohup.out" beforeDir="false" afterPath="$PROJECT_DIR$/nohup.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/updates.db" beforeDir="false" afterPath="$PROJECT_DIR$/updates.db" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,16 +153,24 @@
       <path value="$PROJECT_DIR$/vendor/symfony/mercure-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/mercure" />
       <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1bDuphaKCWWYxSEz4WmmXMmuHCO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js/store/modules" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/js/store/modules" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -182,6 +200,9 @@
       <workItem from="1588182526526" duration="2306000" />
       <workItem from="1588184859307" duration="404000" />
       <workItem from="1588377634130" duration="123000" />
+      <workItem from="1588524561653" duration="741000" />
+      <workItem from="1588525321325" duration="3782000" />
+      <workItem from="1588529121766" duration="172000" />
     </task>
     <servers />
   </component>
@@ -193,7 +214,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
